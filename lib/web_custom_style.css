@@ -1,0 +1,76 @@
+#masthead{
+	background-color: #f3f3f3 !important;
+}
+
+.site-description{
+	font-weight: bold;	
+}
+.aft-home-icon i{
+	visibility: hidden;
+}
+.aft-home-icon{
+
+	background-image: url('http://dw-wpm.gofla.delivery/wp-content/uploads/2020/10/download.png') !important;
+	background-position:center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: 65%;
+}
+
+.aft-popular-tags{
+	background-color: #f3f3f3 !important;
+}
+.exclusive-posts{
+	font-size: 16px;
+}
+.main-navigation ul li{
+	font-size: 16px;
+}
+.trending-no{
+	background: #900027 !important;
+	font-family: Rubik, Nyala !important;
+	font-size: 14px !important;
+}
+
+body{
+	font-family: Roboto, Rubik, Nyala !important;
+}
+.exclusive-posts .exclusive-now{
+	background: #900027;
+}
+
+.main-navigation ul li:nth-child(7n+1):after{
+	background-color: transparent;
+	
+}
+.main-navigation ul li:nth-child(7n+2):after{
+	background-color: transparent;
+}
+.main-navigation ul li:nth-child(7n+3):after{
+	background-color: transparent;
+}
+.main-navigation ul li:nth-child(7n+4):after{
+	background-color: transparent;
+}
+.main-navigation ul li:nth-child(7n+5):after{
+	background-color: transparent;
+}
+.main-navigation ul li:nth-child(7n+6):after{
+	background-color: transparent;
+}
+.main-navigation ul li:nth-child(7n):after{
+	background-color: transparent;
+}
+
+#footer-menu{
+	margin-top: 20px;
+}
+.site-footer .site-info{
+	text-align:left;
+	margin-left:15px;
+}
+@media(min-width: 768px ){
+	.site-description{
+		margin-left: 40px !important;
+	}
+}
